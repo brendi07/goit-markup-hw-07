@@ -1,0 +1,34 @@
+.feature__list {
+display: flex;
+}
+
+.feature__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+margin-bottom: 30px;
+background-color: var(--portfolio-button-color);
+border-radius: 4px;
+}
+
+.feature__item {
+    width: 270px;
+    height: 248px;
+}
+.feature__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature__title {
+    margin-bottom: 10px;
+line-height: 1.14;
+font-size: 14px;
+}
+
+.feature__text {
+    color: var(--secondary-text-color);
+line-height: 1.71;
+}
+
